@@ -31,7 +31,7 @@ public class Ejemplo10 {
         String cadena = ""; // cadena acumulador
         cadena = String.format("%sTabla de multiplicar\n", cadena);
         
-        while (contador <= 12){
+        while (contador <= limite_tabla){
             operacion = tabla * contador;
             
             cadena = String.format("%s%d*%d=%d\n", 

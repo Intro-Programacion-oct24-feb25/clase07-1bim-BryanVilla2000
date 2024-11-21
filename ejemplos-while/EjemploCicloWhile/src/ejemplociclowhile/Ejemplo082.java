@@ -48,7 +48,6 @@ public class Ejemplo082 {
                 case "y":
                     bandera = false;
                     break;
-
             }
             /*
             switch (temporal) {
