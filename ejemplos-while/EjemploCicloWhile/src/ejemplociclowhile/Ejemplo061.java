@@ -31,15 +31,18 @@ public class Ejemplo061 {
                 + "estudiantes de su materia");
         // true 
         // while (bandera) {
-        while(bandera==true){
+        while (bandera == true) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
 
             if (calificacion > 20) {
                 calificacion = 20;
+            } else {
+                if (calificacion >= 0 && calificacion <= 5) {
+                    calificacion = 6;
+                }
             }
             suma_total = suma_total + calificacion;
-
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor -1 para salir del ciclo");
             int temporal = entrada.nextInt();

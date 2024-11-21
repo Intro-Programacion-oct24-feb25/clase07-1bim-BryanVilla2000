@@ -30,6 +30,8 @@ public class Ejemplo06 {
         System.out.println("Ingrese las notas de los "
                 + "estudiantes de su materia");
         // true 
+        // la linea while (bandera) y while(bandera==true) hacen lo mismo ya que
+        //no es necesario poner que sea igual a true para que lo tome como verdadero 
         // while (bandera) {
         while(bandera==true){
             System.out.println("Ingrese calificación");

@@ -16,12 +16,12 @@ public class DemoCadenas031 {
         int edad = 39;
         String cadenaAcumuladora = "Datos Personales\n";
         
-        cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, pais);
+        //cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, pais);
         
-        cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, ciudad);
+        //cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, ciudad);
         
-        cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, 
-                fechaIndependencia);
+        //cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, 
+          //      fechaIndependencia);
         
         System.out.printf("%s", cadenaAcumuladora);
         
